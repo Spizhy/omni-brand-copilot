@@ -1,0 +1,18 @@
+services:
+  omni-brand:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: omni_brand_copilot
+    environment:
+      - PORT=8002
+      - LLM_PROVIDER=mock
+      - DATABASE_PATH=/app/data/omni_brand.sqlite3
+    ports:
+      - "8002:8002"
+    volumes:
+      - brand_data:/app/data
+    restart: unless-stopped
+
+volumes:
+  brand_data:
