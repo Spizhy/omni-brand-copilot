@@ -1,8 +1,8 @@
-# OmniBrand Copilot ✨🎨
+﻿# OmniBrand Copilot ✨🎨
 
 > **Multi-Channel Content Automation Studio with Automated Brand Constitution Guardrails.**
 
-[![CI](https://github.com/your-username/omni-brand-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/omni-brand-copilot/actions)
+[![CI](https://github.com/Spizhy/omni-brand-copilot/actions/workflows/ci.yml/badge.svg)](https://github.com/Spizhy/omni-brand-copilot/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python: 3.11+](https://img.shields.io/badge/python-3.11%2B-brightgreen.svg)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688.svg)](https://fastapi.tiangolo.com)
@@ -67,7 +67,7 @@ flowchart TD
 
 ### 1. Installation
 ```bash
-git clone https://github.com/your-username/omni-brand-copilot.git
+git clone https://github.com/Spizhy/omni-brand-copilot.git
 cd omni-brand-copilot
 
 python -m venv venv
